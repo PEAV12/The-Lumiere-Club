@@ -1,0 +1,277 @@
+@font-face {
+    font-family: Heavitas;
+    src: url(fonts/Heavitas.ttf);
+}
+
+@font-face {
+    font-family: Gotham;
+    src: url(fonts/Gotham-Light.otf);
+}
+
+@font-face {
+    font-family: "Gotham Bold";
+    src: url(fonts/Gotham-Bold.otf);
+}
+
+@font-face {
+    font-family: Montserrat;
+    src: url(fonts/Montserrat-VariableFont_wght.ttf);
+}
+
+.navbar {
+    background-color: black;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.navbar-brand {
+    color: #eab62c !important;
+    font-size: 30px !important;
+    font-family: Heavitas;
+    font-weight: lighter;
+}
+
+.link-color {
+    color: #eab62c !important;
+    font-family: Gotham;
+}
+
+.unselected-color {
+    color: white !important;
+    font-family: Gotham !important;
+}
+
+.body {
+    background-color: #101010;
+}
+
+
+p {
+    color: white;
+    font-family: Montserrat;
+
+}
+
+.footer {
+    position: fixed;
+    background-color: black;
+
+}
+
+.main-title {
+    color: white;
+    font-family: "Gotham Bold";
+}
+
+.title-socials {
+    color: white;
+    font-family: Montserrat !important;
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.title-card {
+    color: white;
+    font-family: Gotham !important;
+    font-weight: bold;
+}
+
+.social-panel-right {
+    background-color: rgb(210, 119, 0);
+    background-size: cover;
+}
+
+.responsive {
+    width: 100%;
+    height: auto;
+    border-radius: 0.5%;
+}
+
+
+.mg-parallax {
+    /* image  used for the paralla */
+    background-image: url('Background.png');
+    /* specific height */
+    height: 500px;
+    /* Parallax Effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+}
+
+
+.mg-parallax {
+    /* image  used for the paralla */
+    background-image: url('Background.png');
+    /* specific height */
+    height: 500px;
+    /* Parallax Effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+}
+
+
+body {
+    margin: 0;
+    padding: 0;
+}
+
+.box1 {
+    height: 100vh;
+    width: 100%;
+    background-image: url(images/welcome_wallpaper.png);
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    display: table;
+
+}
+
+.box2 {
+    height: 100vh;
+    width: 100%;
+    background-image: url(images/First\ Core\ Team.jpg);
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    display: table;
+}
+
+.box3 {
+    height: 100vh;
+    width: 100%;
+    background-image: url(images/3.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+    display: table;
+}
+
+.box4 {
+    height: 100vh;
+    width: 100%;
+    background-image: url(images/2nd\ Core.jpg);
+    background-size: contain;
+    background-position: center;
+    background-attachment: fixed;
+    display: table;
+}
+
+.box5 {
+    height: 100vh;
+    width: 100%;
+    background-image: url(images/2nd\ Core\ 3.jpg);
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    display: table;
+}
+
+.box6 {
+    height: 100vh;
+    width: 100%;
+    background-image: url(images/2nd\ Core\ 2.jpg);
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    display: table;
+}
+
+.box7 {
+    height: 100vh;
+    width: 100%;
+    background-image: url(images/3rd\ Core.jpg);
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    display: table;
+}
+
+.box8 {
+    height: 100vh;
+    width: 100%;
+    background-image: url(images/HMAT.jpg);
+    background-size: contain;
+    background-position: center;
+    background-attachment: fixed;
+    display: table;
+}
+
+h1 {
+    font-size: 36px !important;
+    font-family: Heavitas;
+    color: white !important;
+    margin: 0px;
+    text-align: center;
+    display: table-cell;
+    vertical-align: middle;
+}
+
+
+.div1 {
+    width: 150px;
+    border: 1px solid #000000;
+}
+
+div.b {
+    word-wrap: break-word;
+}
+
+h5 {
+    font-family: Montserrat;
+    font-weight: bold;
+}
+
+div.scroll-container {
+    background-color: #101010;
+    overflow: auto;
+    white-space: nowrap;
+    padding: 20px;
+}
+
+div.scroll-container img {
+    padding: 10px;
+}
+
+.row {
+    display: flex;
+    flex-wrap: wrap;
+    padding: 0 4px;
+  }
+  
+  /* Create four equal columns that sits next to each other */
+  .column {
+    flex: 25%;
+    max-width: 25%;
+    padding: 0 4px;
+  }
+  
+  .column img {
+    margin-top: 8px;
+    vertical-align: middle;
+    width: 100%;
+  }
+  
+  /* Responsive layout - makes a two column-layout instead of four columns */
+  @media screen and (max-width: 800px) {
+    .column {
+      flex: 50%;
+      max-width: 50%;
+    }
+  }
+  
+  /* Responsive layout - makes the two columns stack on top of each other instead of next to each other */
+  @media screen and (max-width: 600px) {
+    .column {
+      flex: 100%;
+      max-width: 100%;
+    }
+  }
